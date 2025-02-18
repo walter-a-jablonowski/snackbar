@@ -5,7 +5,7 @@ Lightweight snackbar made with AI in less than 5 minutes.
 - 🎨 Multiple pre-defined styles (success, error, warning, info)
 - 📍 Flexible positioning (top-right, top-left, bottom-right, bottom-left)
 - ⏱️ Timespan
-- 📚 Support for stackng
+- 📚 Support for stacking
 - 🎯 BS-compatible styling
 - 💫 Animations
 - 📱 Responsive design
