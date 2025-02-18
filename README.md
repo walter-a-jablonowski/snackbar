@@ -1,4 +1,4 @@
-# Snackbar Component
+# Snackbar
 
 Lightweight snackbar made with AI in less than 5 minutes.
 
