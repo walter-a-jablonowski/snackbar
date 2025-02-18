@@ -6,7 +6,3 @@ Default behaviour
 - appears in upper right corner (can be changed via a function argument)
 - appears for a default number of milliseconds (can be changed via a function argument)
 - multiple snackbars appear "stacked" in the ui
-
- --
-
-- BS compatible

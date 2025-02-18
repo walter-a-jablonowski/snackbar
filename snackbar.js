@@ -78,4 +78,44 @@ class Snackbar
     
     return snackbar
   }
+
+  // Shortcut for success messages
+  static success( content, position = null, timespan = null ) 
+  {
+    return Snackbar.show(content, {
+      type: Snackbar.types.SUCCESS,
+      ...(position && { position }),
+      ...(timespan && { timespan })
+    })
+  }
+
+  // Shortcut for error messages
+  static error( content, position = null, timespan = null ) 
+  {
+    return Snackbar.show(content, {
+      type: Snackbar.types.ERROR,
+      ...(position && { position }),
+      ...(timespan && { timespan })
+    })
+  }
+
+  // Shortcut for warning messages
+  static warning( content, position = null, timespan = null ) 
+  {
+    return Snackbar.show(content, {
+      type: Snackbar.types.WARNING,
+      ...(position && { position }),
+      ...(timespan && { timespan })
+    })
+  }
+
+  // Shortcut for info messages
+  static info( content, position = null, timespan = null ) 
+  {
+    return Snackbar.show(content, {
+      type: Snackbar.types.INFO,
+      ...(position && { position }),
+      ...(timespan && { timespan })
+    })
+  }
 }

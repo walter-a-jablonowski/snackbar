@@ -1,10 +1,10 @@
-# Snackbar
+# Snackbar Component
 
 Lightweight snackbar made with AI in less than 5 minutes.
 
 - 🎨 Multiple pre-defined styles (success, error, warning, info)
 - 📍 Flexible positioning (top-right, top-left, bottom-right, bottom-left)
-- ⏱️ Customizable timespan
+- ⏱️ Timespan
 - 📚 Support for stackng
 - 🎯 BS-compatible styling
 - 💫 Animations
@@ -19,7 +19,10 @@ Lightweight snackbar made with AI in less than 5 minutes.
 ```
 
 ```javascript
-Snackbar.show('Your message')
+Snackbar.success('Done!')
+Snackbar.error('Something went wrong')
+Snackbar.warning('Please consider...', Snackbar.positions.TOP_LEFT)
+Snackbar.info('Did you know...', Snackbar.positions.BOTTOM_RIGHT, 5000)
 
 Snackbar.show('Some message', {
   type: Snackbar.types.SUCCESS,
@@ -33,12 +36,12 @@ Snackbar.show('<strong>Bold</strong> and <em>emphasized</em> text')
 - types: SUCCESS, ERROR, WARNING, INFO
 - position: TOP_RIGHT, TOP_LEFT, BOTTOM_RIGHT, BOTTOM_LEFT
 
+
 ## Demo
 
-Check out `demo.html` for a live demonstration of all features.
+Check out `demo_plain.html` for a live demonstration of all features (or `demo_bs.html` for BS 5.3).
 
 ![alt text](misc/img.png)
-
 
 ## License
 
